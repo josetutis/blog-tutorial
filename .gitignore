@@ -39,3 +39,6 @@ next-env.d.ts
 /public/robots.txt
 /public/sitemap.xml
 /public/sitemap-0.xml
+
+# Snyk Security Extension - AI Rules (auto-generated)
+.github\instructions\snyk_rules.instructions.md
