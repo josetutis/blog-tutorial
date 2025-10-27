@@ -1,7 +1,8 @@
 import React from 'react'
 import Logo from './Logo'
 import Link from 'next/link'
-import { DribbbleIcon, GithubIcon, LinkedinIcon, TwitterIcon } from '../Icons'
+import { DribbbleIcon, GithubIcon, LinkedinIcon, TwitterIcon, SunIcon } from '../Icons'
+
 
 const Header = () => {
   return (
@@ -20,7 +21,9 @@ const Header = () => {
         <Link href="/contact" className="mr-2">
           Contact
         </Link>
-        <button>T</button>
+        <button>
+          <SunIcon />
+        </button>
       </nav>
       <div>
         <a href="http://example.com" className="w-6 h-6 mr-4 inline-block">
@@ -40,4 +43,4 @@ const Header = () => {
   );
 }
 
-export default Header
+export default Header;
